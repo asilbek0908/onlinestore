@@ -13,8 +13,8 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="icon" href="../images/basket.png">
     <link href="../css/shared.css" rel="stylesheet">
-    <link rel="stylesheet" href="../css/home.css">
-    <title>Home page</title>
+    <link rel="stylesheet" href="../css/earphone.css">
+    <title>Headphones page</title>
 </head>
 
 <body>
@@ -30,14 +30,23 @@
                 </a>
                 <nav class="navigation-bar">
                     <ul class="navigation-items" type="none">
+                        <li class="navigation-item ">
+                            <a class="nav-link to-uppercase" href="../html/home.html">home</a>
+                        </li>
+                        <li class="navigation-item ">
+                            <a class="nav-link to-uppercase" href="../html/headphones.html">headphones</a>
+                        </li>
+                        <li class="navigation-item">
+                            <a class="nav-link to-uppercase" href="../html/speaker.html">speakers</a>
+                        </li>
                         <li class="navigation-item active">
-                            <a class="nav-link to-uppercase" href="#">home</a>
+                            <a class="nav-link to-uppercase" href="#">earphones</a>
                             <ul class="innernavigation-items" type="none">
                                 <li class="innernavigation-item active">
                                     <a class="innernav-link" href="#main">main</a>
                                 </li>
                                 <li class="innernavigation-item active">
-                                    <a class="innernav-link" href="#product">product</a>
+                                    <a class="innernav-link" href="#products">product</a>
                                 </li>
                                 <li class="innernavigation-item active">
                                     <a class="innernav-link" href="#example">examples</a>
@@ -49,15 +58,6 @@
                                     <a class="innernav-link" href="#footer">footer</a>
                                 </li>
                             </ul>
-                        </li>
-                        <li class="navigation-item">
-                            <a class="nav-link to-uppercase" href="../html/headphones.html">headphones</a>
-                        </li>
-                        <li class="navigation-item">
-                            <a class="nav-link to-uppercase" href="../html/speaker.html">speakers</a>
-                        </li>
-                        <li class="navigation-item">
-                            <a class="nav-link to-uppercase" href="../html/earphones.html">earphones</a>
                         </li>
                     </ul>
                 </nav>
@@ -73,6 +73,7 @@
     <!-- Header section -->
 
 
+
     <!-- Main section -->
 
 
@@ -80,56 +81,64 @@
     <!-- Main section -->
     <section id="main" class="main">
         <div class="container">
-            <div class="main-head">
-                <div class="main-head__info">
-                    <h5 class="main-head__intro to-uppercase">new product</h5>
-                    <h1 class="main-head__title">XX99 Mark II
-                        Headphone</h1>
-                    <p class="main-head__description">Experience natural, lifelike audio and exceptional build quality
-                        made for the passionate music enthusiast.</p>
-                    <a class="link to-uppercase">see product</a>
-                </div>
-                <div class="main-head__image">
-                    <img src="../images/image-1 (4).png" alt="main-image">
-                </div>
-            </div>
+            <h1 class="main-title to-uppercase">earphones</h1>
         </div>
     </section>
     <!-- Main section -->
 
-    <!-- Product section -->
-    <section id="product" class="product">
+    <!-- Products section -->
+    <section id="products" class="products">
         <div class="container">
-            <ul class="product-cards" type="none">
-                <li class="product-card">
-                    <div class="product-image">
-                        <img src="../images/image-2 (2).png" alt="product-image1">
+
+            <div class="products__head">
+                <div class="products__head-image">
+                    <img src="../images/image-20.png" alt="main-image">
+                </div>
+                <div class="products__head-info">
+                    <h3 class="product__info-title to-uppercase">new product</h3>
+                    <h1 class="product__info-name">YX1 WIRELESS
+                        EARPHONES</h1>
+                    <p class="product__info-description">Tailor your listening experience with bespoke dynamic drivers
+                        from the new YX1 Wireless Earphones. Enjoy incredible high-fidelity sound even in noisy
+                        environments with its active noise cancellation feature.</p>
+                    <a class="product__info-link link to-uppercase" href="#">see product</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- Products section -->
+
+
+    <!-- Example section -->
+    <section id="example" class="example">
+        <div class="container">
+            <ul class="example-cards" type="none">
+                <li class="example-card">
+                    <div class="example-image">
+                        <img src="../images/image-2 (2).png" alt="example-image1">
                     </div>
-                    <h3 class="product-name to-uppercase">headphones</h3>
-                    <a class="product-link to-uppercase" href="#">shop</a>
+                    <h3 class="example-name to-uppercase">headphones</h3>
+                    <a class="example-link to-uppercase" href="#">shop</a>
                 </li>
-                <li class="product-card">
-                    <div class="product-image">
-                        <img src="../images/image-3 (3).png" alt="product-image2">
+                <li class="example-card">
+                    <div class="example-image">
+                        <img src="../images/image-3 (3).png" alt="example-image2">
                     </div>
-                    <h3 class="product-name to-uppercase">speakers</h3>
-                    <a class="product-link to-uppercase" href="#">shop</a>
+                    <h3 class="example-name to-uppercase">speakers</h3>
+                    <a class="example-link to-uppercase" href="#">shop</a>
                 </li>
-                <li class="product-card">
-                    <div class="product-image">
-                        <img src="../images/image-4.png" alt="product-image3">
+                <li class="example-card">
+                    <div class="example-image">
+                        <img src="../images/image-4.png" alt="example-image3">
                     </div>
-                    <h3 class="product-name to-uppercase">earphones</h3>
-                    <a class="product-link to-uppercase" href="#">shop</a>
+                    <h3 class="example-name to-uppercase">earphones</h3>
+                    <a class="example-link to-uppercase" href="#">shop</a>
                 </li>
             </ul>
         </div>
     </section>
-    <!--Product section -->
-
-    <!-- Examples section -->
-
-    <!-- Examples section -->
+    <!--Example section -->
 
     <!-- Information section -->
     <section id="information" class="information">
@@ -157,6 +166,8 @@
 
 
 
+
+
     <!-- Main section -->
 
 
@@ -169,8 +180,8 @@
                 </a>
                 <nav class="navigation-bar">
                     <ul class="navigation-items" type="none">
-                        <li class="navigation-item active">
-                            <a class="nav-link to-uppercase" href="#">home</a>
+                        <li class="navigation-item">
+                            <a class="nav-link to-uppercase" href="../html/home.html">home</a>
                         </li>
                         <li class="navigation-item">
                             <a class="nav-link to-uppercase" href="../html/headphones.html">headphones</a>
@@ -178,8 +189,8 @@
                         <li class="navigation-item">
                             <a class="nav-link to-uppercase" href="../html/speaker.html">speakers</a>
                         </li>
-                        <li class="navigation-item">
-                            <a class="nav-link to-uppercase" href="../html/earphones.html">earphones</a>
+                        <li class="navigation-item active">
+                            <a class="nav-link to-uppercase" href="#">earphones</a>
                         </li>
                     </ul>
                 </nav>
@@ -191,7 +202,7 @@
                 <p class="footer__info2--description">Copyright 2021. All Rights Reserved</p>
                 <div class="footer__info2--socials">
                     <a class="footer__info2--social" href="#" target="_blank">
-                        <i class="fa-brands fa-instagram fa-2x"></i> 
+                        <i class="fa-brands fa-instagram fa-2x"></i>
                     </a>
                     <a class="footer__info2--social" href="#" target="_blank">
                         <i class="fa-brands fa-twitter fa-2x"></i>
