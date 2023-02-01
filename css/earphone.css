@@ -275,7 +275,7 @@ span {
 /* Example section */
 
 .example {
-    padding: 320px 0;
+    padding-top: 160px;
 }
 
 .example-cards {
