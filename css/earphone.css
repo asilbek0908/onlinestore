@@ -289,6 +289,7 @@ span {
     background: #F1F1F1;
     padding: 0 108px;
     transition: all 0.7s ease-in-out;
+    text-align: center;
 }
 
 .example-card:hover {
